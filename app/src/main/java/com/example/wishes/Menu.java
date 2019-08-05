@@ -6,26 +6,26 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
-public class Login extends AppCompatActivity {
-    private Button button;
-
+public class Menu extends AppCompatActivity {
+    private ImageButton button;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.activity_menu);
 
-        button = (Button) findViewById(R.id.buttonActivity_main2);
+        button =  (ImageButton) findViewById(R.id.imageButton);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openMenu();
+                openPropertyDetails();
             }
         });
     }
 
-    public void openMenu(){
-        Intent intent = new Intent(this, Menu.class);
+    public void openPropertyDetails(){
+        Intent intent = new Intent(this, ProductDetails.class);
         startActivity(intent);
     }
 }
