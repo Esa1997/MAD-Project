@@ -1,3 +1,36 @@
 <resources>
     <string name="app_name">Wishes</string>
+    <string name="Delivery">Delivery Details</string>
+    <string name="sender">Sender Details</string>
+    <string name="check">Same As Recipient</string>
+    <string name="name">Recipient\'s Name</string>
+    <string name="phone">Recipient\'s Phone</string>
+    <string name="name2">Name</string>
+    <string name="phone2">Phone Number(s)</string>
+    <string name="address">Delivery Address</string>
+    <string name="city">Delivery City</string>
+    <string name="email">Email Address</string>
+    <string name="email2">email address</string>
+    <string name="Next">Next</string>
+    <string name="type">Order Type</string>
+    <string name="radio1">It\'s a gift</string>
+    <string name="radio2">It\'s for me</string>
+    <string name="next2">Next</string>
+    <string name="date">Delivery Date</string>
+    <string name="special">Special delivery instructions:(Optinal)</string>
+    <string name="option">Optional</string>
+    <string name="button3">Continue</string>
+    <string name="cancel">Cancel</string>
+    <string name="Recipient">Recipient Details</string>
+    <string name="Landmarks">Landmarks</string>
+    <string name="Back">Back</string>
+    <string name="addressEdit">Address</string>
+
+    <string-array name="city">
+        <item>Colombo</item>
+        <item>Kurunegala</item>
+        <item>Galle</item>
+        <item>Jaffna</item>
+        <item>Matara</item>
+    </string-array>
 </resources>

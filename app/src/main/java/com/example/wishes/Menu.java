@@ -19,12 +19,12 @@ public class Menu extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                openPropertyDetails();
+                openDeliveryDetails();
             }
         });
     }
 
-    public void openPropertyDetails(){
+    public void openDeliveryDetails(){
         Intent intent = new Intent(this, ProductDetails.class);
         startActivity(intent);
     }

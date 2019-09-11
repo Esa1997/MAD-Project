@@ -9,10 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DeliveryFour"></activity>
-        <activity android:name=".DeliveryThree" />
-        <activity android:name=".DeliveryTwo" />
-        <activity android:name=".DeliveryDetails" />
+        <activity android:name=".DeliveryDetails"></activity>
         <activity android:name=".ProductDetails" />
         <activity android:name=".Menu" />
         <activity android:name=".Login" />
